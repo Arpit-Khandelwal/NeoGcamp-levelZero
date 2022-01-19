@@ -25,7 +25,7 @@ body{
 /* links */
 .links{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.25rem;
 }
 
 .link-primary{
@@ -49,3 +49,28 @@ body{
      display: inline;
      padding: 0rem 1rem;
  }
+
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-radius: 0rem 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    
+}
+
+.nav-pills a{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
