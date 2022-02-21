@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#0c4a6e;
+    --primary-color:#139487;
+    --heading-color:#35589A;
 }
 
 hr{
@@ -74,3 +75,24 @@ body{
 .navigation .link-active{
     font-weight: bold;
 }
+
+/** header **/
+.hero{
+    padding: 2rem;
+    
+}
+
+.hero .hero-img{
+    width: 480px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--heading-color);
+}
+
+/** section **/
